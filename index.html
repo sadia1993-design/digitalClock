@@ -31,7 +31,7 @@
   <p id="demo"></p>
 
      <script>
-         "use strict";
+          "use strict";
 
          
           //using es6 feature
@@ -41,10 +41,9 @@
             let localTime = newDate.toLocaleTimeString();
              document.getElementById('demo').innerText = localTime;
             
-             
-          }          
-          
-           setInterval(timing, 100);
+             setInterval(timing, 1000);
+          }       
+          timing(); 
 
      </script>
 </body>
